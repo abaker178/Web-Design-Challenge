@@ -38,6 +38,10 @@ a.navbar-brand {
     background-color: lightgray;
 }
 
+#row2 {
+    margin-top: 10px;
+}
+
 @media (max-width: 992px) {
     #row1, #row2 {
         width: 50%;
