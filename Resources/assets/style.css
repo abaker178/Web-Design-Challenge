@@ -1,0 +1,51 @@
+body {
+    background-color: lightgray;
+}
+
+h1,h2 {
+    color: seagreen;
+}
+
+h1 {
+    padding: 1em 10px .5em 10px;
+}
+
+h2 {
+    padding: .75em 7px 0 7px;
+}
+
+#summary-thumb, .figure {
+    float: left;
+}
+
+.figure {
+    margin-right: 10px;
+}
+
+a.navbar-brand {
+    background-color: seagreen;
+    color: #f8f9fa !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: white;
+    margin-top: 5%;
+}
+
+.spacer {
+    background-color: lightgray;
+}
+
+@media (max-width: 992px) {
+    #row1, #row2 {
+        width: 50%;
+    }
+    #row1 {
+        float: left;
+    }
+    #row2 {
+        float: right;
+    }
+}
