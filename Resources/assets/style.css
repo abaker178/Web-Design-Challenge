@@ -1,4 +1,4 @@
-body {
+body, .spacer, #vis-menu{
     background-color: lightgray;
 }
 
@@ -30,26 +30,39 @@ a.navbar-brand {
 }
 
 .container {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.row {
     background-color: white;
-    margin-top: 5%;
 }
 
-.spacer {
-    background-color: lightgray;
+.visual {
+    margin: 0;
 }
 
-#row2 {
-    margin-top: 10px;
+#row1, #row2 {
+    padding: 10px 0;
+}
+
+.active {
+    border: 2px solid seagreen;
+}
+
+#com-vis-menu {
+    padding-bottom: 2%
 }
 
 @media (max-width: 992px) {
     #row1, #row2 {
         width: 50%;
+        margin: 0 0 20px 0;
     }
     #row1 {
         float: left;
     }
-    #row2 {
-        float: right;
+    div.row > div.active {
+        margin: -2px 0;
     }
 }
